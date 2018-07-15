@@ -3,7 +3,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'graphql/libgraphqlparser/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'graphql-libgraphqlparser'
+  spec.name          = 'libgraphqlparser'
   spec.version       = GraphQL::Libgraphqlparser::VERSION
   spec.authors       = ['Robert Mosolgo']
   spec.homepage      = 'https://github.com/rmosolgo/graphql-libgraphqlparser-ruby'
